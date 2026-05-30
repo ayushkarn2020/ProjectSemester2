@@ -18,3 +18,9 @@ Brief Overview of my Petopia Website
 
 5. Contact us page 
 <img width="1867" height="957" alt="image" src="https://github.com/user-attachments/assets/e5fa3238-8467-4b77-ad65-5cbe00298145" />
+
+
+Special Thanks to:
+1. https://www.youtube.com/watch?v=GeykycZ4Ixs&t=2359s  (For providing basic skeleton knowledge of html and CSS)
+2. https://www.youtube.com/watch?v=xhWHf-bMElk
+3. My Previous ABES EC provided FSD manual(proving me codes for product cards and making js)
