@@ -1,4 +1,4 @@
-# ProjectSemester2
+# Semester-2 Project
 
 Brief Overview of my Petopia Website
 
