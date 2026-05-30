@@ -21,6 +21,6 @@ Brief Overview of my Petopia Website
 
 
 Special Thanks to:
-1. https://www.youtube.com/watch?v=GeykycZ4Ixs&t=2359s  (For providing basic skeleton knowledge of html and CSS)
+1. https://www.youtube.com/watch?v=GeykycZ4Ixs&t=2359s  (For providing basic skeleton knowledge of html and CSS style and basic javascript that kept my website run and add item to cart etc)
 2. https://www.youtube.com/watch?v=xhWHf-bMElk
 3. My Previous ABES EC provided FSD manual(proving me codes for product cards and making js)
