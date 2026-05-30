@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Petopia - My Cart</title>
+</head>
+<body>
+ 
+  <nav class="navbar">
+    <div class="logo">
+      <img src="IMG/bmg2.jpg" alt="Petopia logo">
+    </div>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="order.html">Orders</a></li>
+      <li><a href="cart.html" class="active">Cart</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="rightNav">
+      <input type="text" name="search" id="search" placeholder="Search...">
+      <button class="btn btn-sm">Search</button>
+    </div>
+  </nav>
+ 
+  <section class="ocean-banner">
+    <div class="page-box">
+      <h1 class="text_big">Your Cart</h1>
+ 
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Total</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="cart-body">
+          <!-- filled by script.js -->
+        </tbody>
+      </table>
+ 
+      <div class="cart-summary">
+        <p>Subtotal: <strong id="subtotal">₹0</strong></p>
+        <p style="font-size:0.82rem;
+        color:#aaa;
+        margin-bottom:14px">Shipping will be calculated at checkout</p>
+        <button class="btn" onclick="window.location.href='form.html'">Checkout</button>
+      </div>
+    </div>
+  </section>
+ 
+  <script src="script.js"></script>
+</body>
+</html>

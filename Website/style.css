@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-list{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 23px 34px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;    
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.ocean-banner {
+    background-image: url("IMG/ocen-banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-box {
+    background: rgba(255, 255, 255, 0.85); 
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.text_big {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.text_small {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.btn {
+    background: #ff6f61;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background: #e85c50;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    font-family: arial;
+    background: white;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 1rem;
+    padding: 10px 0 4px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+    padding: 4px 0;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.page-box {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 900px;
+  width: 90%;
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* Cart */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.cart-table th, .cart-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.cart-table th {
+  background: #f5f5f5;
+  font-size: 1rem;
+}
+
+.cart-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.qty-input {
+  width: 55px;
+  padding: 4px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.remove-btn {
+  background: #e85c50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.remove-btn:hover {
+  background: #c0392b;
+}
+
+.cart-summary {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.cart-summary p {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+/* Contact */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.contact-form label {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff6f61;
+}
+
+.contact-info {
+  margin-top: 24px;
+  line-height: 2;
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Orders */
+.order-card {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.order-status {
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.delivered {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.pending {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.order-body {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.order-date {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.checkout-layout {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.checkout-form-side {
+  flex: 1.4;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-form-side label {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: -4px;
+}
+
+.checkout-form-side input,
+.checkout-form-side textarea {
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 12px;
+  font-family: arial;
+}
+
+.checkout-form-side input:focus,
+.checkout-form-side textarea:focus {
+  border-color: #ff6f61;
+}
+
+.checkout-summary-side {
+  flex: 1;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #eee;
+  height: fit-content;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.summary-total {
+  margin-top: 14px;
+  font-size: 1.1rem;
+  text-align: right;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payment-option {
+  font-size: 0.95rem;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}

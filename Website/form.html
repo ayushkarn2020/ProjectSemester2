@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Petopia - Checkout</title>
+</head>
+<body>
+
+  <nav class="navbar background">
+    <div class="logo">
+      <img src="bmg2.jpg" alt="logo">
+    </div>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="order.html">Orders</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="rightNav">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button>
+    </div>
+  </nav>
+
+  <section class="background ocean-banner">
+    <div class="page-box">
+      <h1 class="text_big">Checkout</h1>
+
+      <div class="checkout-layout">
+
+        <div class="checkout-form-side">
+          <h2 style="margin-bottom:18px; font-size:1.1rem">Delivery Details</h2>
+
+          <form id="checkout-form">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="Ayush karn">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+91XXXXXXXX">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="emailname@gmail.com">
+
+            <label for="address">Address</label>
+            <textarea id="address" rows="3" placeholder="Flat no, Tower"></textarea>
+
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="Noida">
+
+            <label for="pincode">Pincode</label>
+            <input type="text" id="pincode" placeholder="203207">
+
+            <h2 style="margin:20px 0 14px; font-size:1.1rem">Payment Type</h2>
+
+            <div class="payment-options">
+              <label class="payment-option">
+                <input type="radio" name="payment" value="cod" checked> Cash on Delivery
+              </label>
+              <label class="payment-option">
+                <input type="radio" name="payment" value="upi"> UPI
+              </label>
+              <label class="payment-option">
+                <input type="radio" name="payment" value="card"> Credit / Debit Card
+              </label>
+            </div>
+
+            <div id="upi-field" style="display:none; margin-top:10px">
+              <label for="upi">UPI ID</label>
+              <input type="text" id="upi" placeholder="yourname@upi">
+            </div>
+
+            <div id="card-field" style="display:none; margin-top:10px">
+              <label for="cardnum">Card Number</label>
+              <input type="text" id="cardnum" placeholder="XXXXXXXXXXXXXXXX">
+              <label for="expiry">Expiry</label>
+              <input type="text" id="expiry" placeholder="MM/YY">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" placeholder="123">
+            </div>
+
+            <button type="button" class="btn" style="margin-top:24px; width:100%" onclick="placeOrder()">Place Order</button>
+          </form>
+        </div>
+
+        <div class="checkout-summary-side">
+          <h2 style="margin-bottom:18px; font-size:1.1rem">Order Summary</h2>
+          <div id="summary-items"></div>
+          <div class="summary-total">
+            <p>Total: <strong id="summary-total">₹0</strong></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="form.js"></script>
+</body>
+</html>
