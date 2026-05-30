@@ -30,7 +30,6 @@ function renderSummary() {
   totalEl.textContent = '₹' + total.toLocaleString();
 }
 
-// payment option toggle
 document.querySelectorAll('input[name="payment"]').forEach(radio => {
   radio.addEventListener('change', function() {
     document.getElementById('upi-field').style.display = 'none';
