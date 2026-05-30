@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Petopia - Products</title>
+</head>
+<body>
+
+  <nav class="navbar background">
+    <div class="logo">
+      <img src="IMG/bmg2.jpg" alt="logo">
+    </div>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="order.html">Orders</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="rightNav">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button>
+    </div>
+  </nav>
+
+  <section class="background ocean-banner">
+    <div class="box1">
+
+      <div class="card">
+        <img src="IMG/shampoo.jpg" alt="Dog Shampoo" style="width:100%">
+        <h2>Dog Shampoo</h2>
+        <p class="price">₹299</p>
+        <button onclick="addToCart('Dog Shampoo', 299, 'shampoo.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="IMG/cathouse.jpg" alt="Cat House" style="width:100%">
+        <h2>Cat House</h2>
+        <p class="price">₹1,499</p>
+        <button onclick="addToCart('Cat House', 1499, 'cathouse.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="IMG/aquarium.jpg" alt="Aquarium Kit" style="width:100%">
+        <h2>Aquarium Kit</h2>
+        <p class="price">₹2,199</p>
+        <button onclick="addToCart('Aquarium Kit', 2199, 'aquarium.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="IMG/vaccine.jpg" alt="Vaccine" style="width:100%">
+        <h2>Pet Vaccine</h2>
+        <p class="price">₹850</p>
+        <button onclick="addToCart('Pet Vaccine', 850, 'vaccine.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="IMG/food.jpg" alt="Dog Food" style="width:100%">
+        <h2>Dog Food</h2>
+        <p class="price">₹199</p>
+        <button onclick="addToCart('Dog Food', 199, 'food.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="IMG/birdcage.jpg" alt="Bird Cage" style="width:100%">
+        <h2>Bird Cage</h2>
+        <p class="price">₹999</p>
+        <button onclick="addToCart('Bird Cage', 999, 'birdcage.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="IMG/dog-flea-collar.jpg" alt="Flea Collar" style="width:100%">
+        <h2>Dog Collar</h2>
+        <p class="price">₹349</p>
+        <button onclick="addToCart('Dog Collar', 349, 'dog-flea-collar.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="IMG/vetkit.jpg" alt="Vet Kit" style="width:100%">
+        <h2>Vet Kit</h2>
+        <p class="price">₹649</p>
+        <button onclick="addToCart('Vet Kit', 649, 'vetkit.jpg')">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
